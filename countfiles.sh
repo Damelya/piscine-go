@@ -1,1 +1,1 @@
-/bin/ls -lA  | egrep -c '^-'
+ls -lA  | egrep -c '^-|^d'
