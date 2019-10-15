@@ -1,1 +1,2 @@
-find . -maxdepth 1 -type f | wc -l
+ls -f . | wc -l
+
