@@ -1,2 +1,1 @@
-let count=count+12
-echo $count
+find . -maxdepth 1 -type f | wc -l
