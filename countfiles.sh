@@ -1,1 +1,1 @@
-ls -lA  | egrep -c '^-|^d'
+ls -la | grep -v total | wc -l
