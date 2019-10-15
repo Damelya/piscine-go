@@ -1,2 +1,1 @@
-ls -f . | wc -l
-
+/bin/ls -lA  | egrep -c '^-|^d'
