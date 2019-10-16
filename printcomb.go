@@ -2,24 +2,10 @@ package main
 
 import piscine 
 
+func PrintComb() {
 
-void my_print_comb(void)
-{
-    int i;
-    int j;
-    int k;
-    for(i = '0'; i <= '9'; ++i)
-    {
-        for(j = '0'; j <= '9'; ++j)
-        {
-            for(k = '0'; k <= '9'; ++k) // k, not j, is tested against '9'
-            {
-                my_putchar(i);
-                my_putchar(j);
-                my_putchar(k);
-                my_putchar(',');
-                my_putchar(' ');
-            }
-        }
-    }
-}
+	for (int i = 1; i < 10; i++)
+	for (int j = i + 1; j < 10; j++)
+	  for (int k = j + 1; k < 10; k++)
+		printf("%d%d%d \n", i, j, k);
+		
