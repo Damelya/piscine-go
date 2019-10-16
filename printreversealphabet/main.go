@@ -4,7 +4,7 @@ import "github.com/01-edu/z01"
 
 func main() {
 	 i := 'z'; i >= 'a'; i-- ;
-		dec.PrintRune(i)
+		decloration.PrintRune(i)
 	}
-	dec.PrintRune('\n')
+	decloration.PrintRune('\n')
 }
