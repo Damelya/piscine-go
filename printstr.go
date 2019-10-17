@@ -1,6 +1,10 @@
 package piscine
 
-func PrintStr(str string) {
-	str := "Hello World"
+import "github.com/01-edu/z01"
 
+func PrintStr(str string) {
+	nstring := []rune(str)
+	for i := range nstring {
+		z01.PrintRune(nstring[i])
+	}
 }
