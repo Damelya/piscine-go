@@ -7,4 +7,5 @@ func StrLen(str string) int {
 		len++
 		i = i
 	}
+	return len
 }
