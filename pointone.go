@@ -1,8 +1,5 @@
-package piscine
-
-import "fmt"
+package pointone
 
 func PointOne(n *int) {
 	*n = 1
-	fmt.Println("*n")
 }
