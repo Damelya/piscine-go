@@ -1,5 +1,5 @@
 package ultimatepointone
 
-func PointOne(n ***int) {
+func UltimatePointOne(n ***int) {
 	***n = 1
 }
