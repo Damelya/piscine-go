@@ -3,7 +3,7 @@ package piscine
 import "fmt"
 
 func PointOne(n *int) {
-	a := 1
+	n := 1
 
-	fmt.Println('a')
+	fmt.Println('n')
 }
