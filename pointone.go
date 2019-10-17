@@ -5,5 +5,5 @@ import "fmt"
 func PointOne(n *int) {
 	int := 1
 
-	fmt.Println(n)
+	fmt.Println(int)
 }
