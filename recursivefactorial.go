@@ -1,8 +1,8 @@
 package piscine
 
-func fact(n int) int {
+func RecursiveFactorial(n int) int {
 	if n == 0 {
 		return 1
 	}
-	return n * fact(n-1)
+	return n * RecursiveFactorial(n-1)
 }
