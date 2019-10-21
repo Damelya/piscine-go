@@ -1,9 +1,11 @@
 package main
 
-import piscine ".."
+import (
+	piscine ".."
+	"fmt"
+)
 
 func main() {
-	piscine.PrintNbr(-123)
-	piscine.PrintNbr(0)
-	piscine.PrintNbr(123)
+	arg := 4
+	fmt.Println(piscine.RecursiveFactorial(arg))
 }
