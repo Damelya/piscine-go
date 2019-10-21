@@ -1,14 +1,9 @@
 package main
 
-import (
-	"fmt"
-	piscine ".."
-)
+import piscine ".."
 
 func main() {
-	a := 0
-	b := 1
-	piscine.Swap(&a, &b)
-	fmt.Println(a)
-	fmt.Println(b)
+	piscine.PrintNbr(-123)
+	piscine.PrintNbr(0)
+	piscine.PrintNbr(123)
 }
